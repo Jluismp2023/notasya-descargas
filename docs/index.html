@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NotasYa: notas rápidas para Android</title>
+<meta name="description" content="NotasYa es una app de notas para Android. Anota rápido y encuentra al instante.">
+<meta property="og:title" content="NotasYa: notas rápidas para Android">
+<meta property="og:description" content="Anota rápido. Encuentra al instante.">
+<meta property="og:image" content="imagenes/grafico-destacado-1024x500.png">
+<link rel="icon" href="imagenes/icono-512.png">
+<style>
+:root{--bg:#f4faf9;--surface:#fff;--text:#12302c;--muted:#4f6b66;--line:#d6e6e3;--teal:#0b8d7e;--teal-d:#00695c;--yellow:#ffe766}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1a19;--surface:#162826;--text:#e6f4f1;--muted:#9bbcb6;--line:#244240}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(135deg,#17b3a2,#0b8d7e 55%,#00695c);color:#fff;padding:56px 0 64px;text-align:center}
+.hero img.icon{width:112px;height:112px;border-radius:26px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.hero h1{font-size:clamp(2.6rem,8vw,4.4rem);letter-spacing:-.04em;line-height:1.05;margin-top:20px}
+.hero p.tag{font-size:clamp(1.15rem,3.4vw,1.6rem);margin-top:12px;color:#e9fffb}
+.btn{display:inline-block;margin-top:28px;padding:14px 30px;border-radius:999px;font-weight:700;font-size:1.05rem;background:rgba(255,255,255,.18);border:2px solid rgba(255,255,255,.4);color:#fff}
+section{padding:48px 0}
+h2{font-size:clamp(1.6rem,4.5vw,2.2rem);letter-spacing:-.02em;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px}
+.card h3{font-size:1.15rem;margin-bottom:6px}
+.card p{color:var(--muted);font-size:.98rem}
+.dot{width:14px;height:14px;border-radius:50%;display:inline-block;margin-right:6px}
+.banner img{width:100%;max-width:560px;height:auto;border-radius:22px;border:1px solid var(--line);display:block;margin:0 auto}
+details{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 20px;margin-bottom:12px}
+summary{font-weight:700;cursor:pointer}
+details p{margin-top:10px;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.92rem;text-align:center}
+footer a,details a{color:var(--teal)}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <img class="icon" src="imagenes/icono-512.png" alt="Ícono de NotasYa">
+    <h1>NotasYa</h1>
+    <p class="tag">Anota rápido. Encuentra al instante.</p>
+    <span class="btn">Próximamente para Android</span>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="banner" aria-label="Imagen de la app">
+    <img src="imagenes/publicacion-caracteristicas-1080x1080.png" alt="Funciones de NotasYa: notas de colores, búsqueda rápida, modo oscuro, archivo y papelera">
+  </section>
+
+  <section>
+    <h2>Qué hace</h2>
+    <div class="grid">
+      <div class="card"><h3><span class="dot" style="background:#f4807f"></span><span class="dot" style="background:#5b9bf2"></span><span class="dot" style="background:#e6b800"></span>Notas de colores</h3><p>Cada nota tiene su color. Ordénalas por color, por fecha o por título.</p></div>
+      <div class="card"><h3>Búsqueda rápida</h3><p>Encuentra tus notas sin importar tildes ni mayúsculas, y guarda tu historial de búsquedas.</p></div>
+      <div class="card"><h3>Cuatro vistas</h3><p>Lista, detalles, retícula y retícula grande, para ver tus notas como prefieras.</p></div>
+      <div class="card"><h3>Archivo y papelera</h3><p>Archiva lo que no usas a diario. Lo que borras se puede recuperar durante 30 días.</p></div>
+      <div class="card"><h3>Modo oscuro</h3><p>Claro, oscuro o igual que tu celular, y tamaño de letra a tu gusto.</p></div>
+      <div class="card"><h3>Enlaces tocables</h3><p>Los enlaces, correos y teléfonos dentro de una nota se pueden tocar para abrirlos.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Preguntas frecuentes</h2>
+    <details><summary>¿Dónde se guardan mis notas?</summary><p>En tu celular. NotasYa no envía tus notas a ningún servidor.</p></details>
+    <details><summary>¿Tiene anuncios?</summary><p>La versión gratuita muestra un banner pequeño de Start.io al final de la lista de notas, nunca dentro de una nota. La primera vez te pregunta si aceptas verlos, y puedes cambiarlo en Ajustes.</p></details>
+    <details><summary>¿Qué datos usa la app?</summary><p>Tus notas no salen de tu celular y no hay cuentas. La publicidad de Start.io puede usar el identificador de publicidad y datos básicos del dispositivo. Todo está explicado en la <a href="privacidad.html">política de privacidad</a>.</p></details>
+    <details><summary>¿Para qué celulares es?</summary><p>Para Android.</p></details>
+    <details><summary>¿Cuándo se puede descargar?</summary><p>Próximamente. Cuando esté disponible, el enlace aparecerá en esta página.</p></details>
+  </section>
+</main>
+
+<footer><div class="wrap">NotasYa · Notas rápidas para Android · <a href="privacidad.html">Política de privacidad</a></div></footer>
+</body>
+</html>
