@@ -26,7 +26,7 @@ NotasYa es una app de notas para Android, pensada para anotar sin vueltas y enco
 
 ## Anuncios
 
-La versión gratuita muestra un banner pequeño de publicidad de [Google AdMob](https://admob.google.com) al final de la lista de notas, y nunca dentro de una nota. La primera vez que se abre la app, te pregunta si aceptas ver anuncios, y puedes cambiarlo después en Ajustes.
+La versión gratuita muestra un banner pequeño de publicidad de [Google AdMob](https://admob.google.com) al final de la lista de notas, y nunca dentro de una nota. Se pueden desactivar en Ajustes.
 
 ## Privacidad
 
