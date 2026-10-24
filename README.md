@@ -22,7 +22,7 @@ NotasYa es una app de notas para Android, pensada para anotar sin vueltas y enco
 
 ## Descarga
 
-**Próximamente.** Cuando esté disponible, el enlace aparecerá aquí y en la sección *Releases* de este repositorio.
+Disponible gratis en **[Google Play](https://play.google.com/store/apps/details?id=com.jluismp.notasya)**. Las versiones antiguas en *Releases* ya no se actualizan.
 
 ## Anuncios
 
